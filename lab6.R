@@ -4,11 +4,11 @@ layout.show(4)
 
 curve(dnorm(x, mean=10,sd=4),xlim=c(-10,30))
 
-curve(dnorm(x, mean=10,sd=8),xlim=c(-10,30))
-
-curve(dnorm(x, mean=5,sd=4),xlim=c(-10,30))
-
 curve(dnorm(x, mean=10,sd=2),xlim=c(-10,30))
+
+curve(dnorm(x, mean=5,sd=10),xlim=c(-30,40))
+
+curve(dnorm(x, mean=5,sd=1/2),xlim=c(-10,20))
 
 
 ### Draw a normal curve
